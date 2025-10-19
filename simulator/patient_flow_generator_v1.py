@@ -60,6 +60,6 @@ if __name__ == "__main__":
         event = generate_patient_event()
         producer.send(EVENT_HUB_NAME, event)
         print(f"Sent to Event Hub: {event}")
-        time.sleep(1)
+        time.sleep(120)
 
 #example
